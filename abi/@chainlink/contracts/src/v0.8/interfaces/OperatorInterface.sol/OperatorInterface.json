@@ -1,0 +1,15 @@
+[
+  "function cancelOracleRequest(bytes32,uint256,bytes4,uint256)",
+  "function distributeFunds(address[],uint256[]) payable",
+  "function fulfillOracleRequest(bytes32,uint256,address,bytes4,uint256,bytes32) returns (bool)",
+  "function fulfillOracleRequest2(bytes32,uint256,address,bytes4,uint256,bytes) returns (bool)",
+  "function getAuthorizedSenders() returns (address[])",
+  "function getForwarder() returns (address)",
+  "function isAuthorizedSender(address) view returns (bool)",
+  "function operatorRequest(address,uint256,bytes32,bytes4,uint256,uint256,bytes)",
+  "function oracleRequest(address,uint256,bytes32,address,bytes4,uint256,uint256,bytes)",
+  "function ownerTransferAndCall(address,uint256,bytes) returns (bool)",
+  "function setAuthorizedSenders(address[])",
+  "function withdraw(address,uint256)",
+  "function withdrawable() view returns (uint256)"
+]

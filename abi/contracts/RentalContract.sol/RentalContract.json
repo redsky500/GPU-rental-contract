@@ -1,0 +1,20 @@
+[
+  "constructor(address,address)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "event RentalDiscontinued(address indexed,address indexed,uint256)",
+  "event RentalPaidOut(address indexed,address indexed,uint256)",
+  "event RentalStarted(address indexed,address indexed,uint256,uint256,uint256)",
+  "function discontinueRental(string)",
+  "function getBalance(string[]) view returns (uint256)",
+  "function getRental(string) view returns (tuple(address,address,uint256,uint256,uint256,bool))",
+  "function owner() view returns (address)",
+  "function ownerTransfer(address)",
+  "function payoutRental(string)",
+  "function renounceOwnership()",
+  "function rentAdd(uint256,string)",
+  "function rentModify(string,uint256)",
+  "function rentRemove(string)",
+  "function startRental(string)",
+  "function token() view returns (address)",
+  "function transferOwnership(address)"
+]

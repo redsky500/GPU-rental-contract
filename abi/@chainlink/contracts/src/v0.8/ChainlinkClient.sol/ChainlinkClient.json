@@ -1,0 +1,5 @@
+[
+  "event ChainlinkCancelled(bytes32 indexed)",
+  "event ChainlinkFulfilled(bytes32 indexed)",
+  "event ChainlinkRequested(bytes32 indexed)"
+]
